@@ -1,0 +1,21 @@
+Vector Embeddings:
+    Vector embeddings are numerical representations of text (or other data types) in high-dimensional space,
+    where similar items are closer together.
+    Embeddings capture the semantic meaning of data, which allows for more effective similarity searches.
+Common Techniques:
+    OpenAI's Embeddings
+    Sentence-Transformers
+Pinecone
+    Pinecone is a vector database that helps manage and search high-dimensional vector data, 
+    designed for use cases like similarity search and recommendation systems.
+
+Similarity Search:
+    A method to find data points that are semantically or structurally similar to a given query.
+
+    Converts data (e.g., text, images) into vector embeddings.
+    Computes similarity between embeddings using metrics like cosine similarity, Euclidean distance, 
+    or dot product.
+
+Sentence-Transformers:
+    Sentence-Transformers is a Python library designed to generate high-quality embeddings for sentences,
+    paragraphs, and documents.
