@@ -1,0 +1,35 @@
+RAG:
+    A Retrieval-Augmented Generation (RAG) system combines retrieval with generation to improve the performance 
+    of language models by allowing them to pull in external, relevant information from a database or knowledge 
+    base. It uses the synergy of a retriever (search mechanism) and a generator (text generator).
+
+Core Components of RAG:
+The RAG system typically consists of three core components:
+
+Retriever:
+
+Function: 
+    Fetches relevant information from a database or external knowledge base.
+How it works: 
+    Queries are sent to the retriever, which identifies documents or passages that are contextually 
+    relevant.
+Example: 
+    If the user asks, "What is the capital of France?", the retriever might search a database of general
+    knowledge articles and return passages mentioning "Paris".
+
+Generator:
+
+Function: 
+    Generates human-like responses using a language model.
+How it works: 
+    The retriever sends relevant context to the generator, and the generator generates a well-structured 
+    response based on that context.
+Example: 
+    Using the retriever’s output, the generator answers with: "The capital of France is Paris."
+
+Integrator:
+
+Function: 
+    Combines outputs from the retriever and generator into a seamless response.
+How it works: 
+    This step ensures that the generated response uses the retrieved information effectively.
