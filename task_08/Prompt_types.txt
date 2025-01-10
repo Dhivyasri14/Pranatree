@@ -1,0 +1,41 @@
+Zero-shot Prompting:
+    Zero-shot prompting involves giving the AI a task or query without providing any examples or prior context. 
+    The model relies solely on its pre-trained knowledge to generate a response.
+
+Example:
+Prompt:
+"Write a short poem about the moon."
+
+Response:
+"The moonlight glows, a silvery sheen,
+Lighting the night with a mystical gleam.
+High in the sky, serene and bright,
+A beacon of wonder in the quiet night."
+
+Few-shot Prompting:
+    Few-shot prompting provides the AI with a small number of examples (typically 1–5) to guide its 
+    understanding of the task.
+Example:
+Prompt:
+Translate the following to Spanish:
+
+Hello → Hola
+Thank you → Gracias
+Good morning → Buenos días.
+
+
+Chain-of-Thought Prompting:
+    Chain-of-thought prompting involves instructing the AI to generate step-by-step reasoning or intermediate 
+    explanations while solving a problem.
+    This method improves the accuracy of tasks requiring logical reasoning, calculations, or decision-making.
+
+Example:
+Prompt:
+"If a store sells 3 apples for $1 and I buy 12 apples, how much will it cost?."
+
+Response:
+"3 apples cost $1.
+12 apples = 4 sets of 3 apples.
+4 sets × $1 = $4.
+The total cost is $4."
+
