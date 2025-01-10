@@ -1,0 +1,47 @@
+What is Natural Language Processing (NLP)?
+NLP is a branch of Artificial Intelligence (AI) that focuses on enabling computers to understand, interpret, 
+and respond to human language.
+
+Tokenization:
+Splits text into smaller chunks like words or sentences.
+Ex: " NLP is Interesting"  O/p: ["NLP","is","Interesting"]
+
+Stemming: 
+Stemming reduces words to their root form, often by chopping off prefixes/suffixes.
+Ex: "Heating" o/p:["Heat"]
+
+Lemmatization:
+Lemmatization reduces words to their base form using linguistic rules.
+Ex: words=["runner","better","geese"]  o/p:["run","good","goose"]
+
+Stop words:
+Stop words are common words in a language (e.g., "is", "the", "and") that often appear in text but carry little meaning. 
+They are usually removed during text preprocessing to focus on the important words in the text.
+
+Tokens (words):
+['Natural', 'Language', 'Processing', 'is', 'a', 'fascinating', 'field', 'of', 'AI']
+Filtered Tokens:
+['Natural', 'Language', 'Processing', 'fascinating', 'field', 'AI']
+
+Sentiment Analysis:
+TextBlob can analyze the sentiment of text, providing:
+
+Polarity:
+Measures the emotional tone of the text, indicating whether it is positive, negative, or neutral.
+Range: Polarity is a value between -1 and +1:
++1: Extremely positive sentiment.
+0: Neutral sentiment.
+-1: Extremely negative sentiment.
+Use Case:
+Helps businesses understand customer feedback. For example:
+"The product is amazing!" → Polarity = +0.8 (positive).
+"I hate this experience." → Polarity = -0.9 (negative).
+
+Subjectivity:
+Measures how much of the text expresses personal opinion, emotion, or bias versus objective facts.
+Range: Subjectivity is a value between 0 and 1:
+0: Completely objective (fact-based).
+1: Highly subjective (opinion-based).
+for example,
+"The car is red and has four doors." → Subjectivity = 0.2 (objective).
+"I love how stylish this car looks!" → Subjectivity = 0.9 (subjective).
