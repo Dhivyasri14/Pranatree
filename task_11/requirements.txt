@@ -1,0 +1,10 @@
+cohere
+sentence-transformers
+transformers
+langchain
+openai
+python-dotenv
+numpy
+scipy
+
+
